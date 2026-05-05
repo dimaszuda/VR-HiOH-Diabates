@@ -1,0 +1,177 @@
+"filename", "language", "JSON", "XML", "C#", "HLSL", "ShaderLab", "CMake", "log", "CMake Cache", "C", "C++", "comment", "blank", "total"
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\.cmake\api\v1\reply\cache-v2-a327c19187d8ec325b9a.json", "JSON", 1443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1444
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\.cmake\api\v1\reply\cmakeFiles-v1-67f0f81ed91fa8fb867f.json", "JSON", 206, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 207
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\.cmake\api\v1\reply\codemodel-v2-73c713e1e2757fc9cc85.json", "JSON", 123, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 124
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\.cmake\api\v1\reply\directory-.-Debug-d0094a50bb2071803777.json", "JSON", 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 15
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\.cmake\api\v1\reply\directory-FramePacing-Debug-7f9c8865fd027a154c90.json", "JSON", 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 15
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\.cmake\api\v1\reply\directory-GameActivity-Debug-3edf2ef9e25ca0503118.json", "JSON", 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 15
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\.cmake\api\v1\reply\index-2025-07-13T13-50-39-0143.json", "JSON", 92, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 93
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\.cmake\api\v1\reply\target-game-Debug-26fa90b595d77289655f.json", "JSON", 326, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 327
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\.cmake\api\v1\reply\target-swappywrapper-Debug-a6a095279c2b26eb4022.json", "JSON", 174, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 175
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\CMakeCache.txt", "CMake Cache", 0, 0, 0, 0, 0, 0, 0, 340, 0, 0, 0, 91, 431
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\CMakeFiles\3.22.1-g37088a8-dirty\CMakeCCompiler.cmake", "CMake", 0, 0, 0, 0, 0, 55, 0, 0, 0, 0, 0, 18, 73
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\CMakeFiles\3.22.1-g37088a8-dirty\CMakeCXXCompiler.cmake", "CMake", 0, 0, 0, 0, 0, 64, 0, 0, 0, 0, 0, 20, 84
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\CMakeFiles\3.22.1-g37088a8-dirty\CMakeSystem.cmake", "CMake", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 5, 16
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\CMakeFiles\3.22.1-g37088a8-dirty\CompilerIdCXX\CMakeCXXCompilerId.cpp", "C++", 0, 0, 0, 0, 0, 0, 0, 0, 0, 598, 64, 130, 792
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\CMakeFiles\3.22.1-g37088a8-dirty\CompilerIdC\CMakeCCompilerId.c", "C", 0, 0, 0, 0, 0, 0, 0, 0, 610, 0, 62, 132, 804
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\CMakeFiles\CMakeOutput.log", "log", 0, 0, 0, 0, 0, 0, 236, 0, 0, 0, 0, 72, 308
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\FramePacing\cmake_install.cmake", "CMake", 0, 0, 0, 0, 0, 37, 0, 0, 0, 0, 0, 8, 45
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\GameActivity\cmake_install.cmake", "CMake", 0, 0, 0, 0, 0, 37, 0, 0, 0, 0, 0, 8, 45
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\android_gradle_build.json", "JSON", 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 47
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\android_gradle_build_mini.json", "JSON", 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\cmake_install.cmake", "CMake", 0, 0, 0, 0, 0, 51, 0, 0, 0, 0, 0, 11, 62
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\compile_commands.json", "JSON", 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 47
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\arm64-v8a\prefab_config.json", "JSON", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\prefab\arm64-v8a\prefab\lib\aarch64-linux-android\cmake\game-activity\game-activityConfig.cmake", "CMake", 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\prefab\arm64-v8a\prefab\lib\aarch64-linux-android\cmake\games-frame-pacing\games-frame-pacingConfig.cmake", "CMake", 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\dimas\VR-Adha\.utmp\Debug\l312d4l3\prefab\arm64-v8a\prefab\lib\aarch64-linux-android\cmake\games-frame-pacing\games-frame-pacingConfigVersion.cmake", "CMake", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 9
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\.cmake\api\v1\reply\cache-v2-00491419d10f7153b3a7.json", "JSON", 1443, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1444
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\.cmake\api\v1\reply\cmakeFiles-v1-34adff0b1970d290ee2f.json", "JSON", 206, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 207
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\.cmake\api\v1\reply\codemodel-v2-1891ba3fd7aafaec3037.json", "JSON", 123, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 124
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\.cmake\api\v1\reply\directory-.-RelWithDebInfo-d0094a50bb2071803777.json", "JSON", 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 15
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\.cmake\api\v1\reply\directory-FramePacing-RelWithDebInfo-7f9c8865fd027a154c90.json", "JSON", 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 15
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\.cmake\api\v1\reply\directory-GameActivity-RelWithDebInfo-3edf2ef9e25ca0503118.json", "JSON", 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 15
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\.cmake\api\v1\reply\index-2025-09-16T07-44-59-0480.json", "JSON", 92, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 93
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\.cmake\api\v1\reply\target-game-RelWithDebInfo-9e3b7bb35ead43d1b270.json", "JSON", 326, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 327
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\.cmake\api\v1\reply\target-swappywrapper-RelWithDebInfo-3f5c1528155264f1d29a.json", "JSON", 174, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 175
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\CMakeCache.txt", "CMake Cache", 0, 0, 0, 0, 0, 0, 0, 340, 0, 0, 0, 91, 431
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\CMakeFiles\3.22.1-g37088a8-dirty\CMakeCCompiler.cmake", "CMake", 0, 0, 0, 0, 0, 55, 0, 0, 0, 0, 0, 18, 73
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\CMakeFiles\3.22.1-g37088a8-dirty\CMakeCXXCompiler.cmake", "CMake", 0, 0, 0, 0, 0, 64, 0, 0, 0, 0, 0, 20, 84
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\CMakeFiles\3.22.1-g37088a8-dirty\CMakeSystem.cmake", "CMake", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 5, 16
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\CMakeFiles\3.22.1-g37088a8-dirty\CompilerIdCXX\CMakeCXXCompilerId.cpp", "C++", 0, 0, 0, 0, 0, 0, 0, 0, 0, 598, 64, 130, 792
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\CMakeFiles\3.22.1-g37088a8-dirty\CompilerIdC\CMakeCCompilerId.c", "C", 0, 0, 0, 0, 0, 0, 0, 0, 610, 0, 62, 132, 804
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\CMakeFiles\CMakeOutput.log", "log", 0, 0, 0, 0, 0, 0, 236, 0, 0, 0, 0, 72, 308
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\FramePacing\cmake_install.cmake", "CMake", 0, 0, 0, 0, 0, 37, 0, 0, 0, 0, 0, 8, 45
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\GameActivity\cmake_install.cmake", "CMake", 0, 0, 0, 0, 0, 37, 0, 0, 0, 0, 0, 8, 45
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\android_gradle_build.json", "JSON", 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 47
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\android_gradle_build_mini.json", "JSON", 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\cmake_install.cmake", "CMake", 0, 0, 0, 0, 0, 51, 0, 0, 0, 0, 0, 11, 62
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\compile_commands.json", "JSON", 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 47
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\arm64-v8a\prefab_config.json", "JSON", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\prefab\arm64-v8a\prefab\lib\aarch64-linux-android\cmake\game-activity\game-activityConfig.cmake", "CMake", 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\prefab\arm64-v8a\prefab\lib\aarch64-linux-android\cmake\games-frame-pacing\games-frame-pacingConfig.cmake", "CMake", 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 3, 19
+"c:\Users\dimas\VR-Adha\.utmp\RelWithDebInfo\1b2q1j4j\prefab\arm64-v8a\prefab\lib\aarch64-linux-android\cmake\games-frame-pacing\games-frame-pacingConfigVersion.cmake", "CMake", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 9
+"c:\Users\dimas\VR-Adha\.utmp\tools\debug\arm64-v8a\compile_commands.json", "JSON", 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 47
+"c:\Users\dimas\VR-Adha\.utmp\tools\release\arm64-v8a\compile_commands.json", "JSON", 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 47
+"c:\Users\dimas\VR-Adha\Assembly-CSharp-Editor.csproj", "XML", 0, 1382, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1384
+"c:\Users\dimas\VR-Adha\Assembly-CSharp.csproj", "XML", 0, 1421, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1423
+"c:\Users\dimas\VR-Adha\Assets\Editor\ConvertTexturesToSprites.cs", "C#", 0, 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 6, 30
+"c:\Users\dimas\VR-Adha\Assets\Scripts\ActivityData.cs", "C#", 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 3, 11
+"c:\Users\dimas\VR-Adha\Assets\Scripts\ActivityLogger.cs", "C#", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 6, 29
+"c:\Users\dimas\VR-Adha\Assets\Scripts\ActivityNavigator.cs", "C#", 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 8, 49
+"c:\Users\dimas\VR-Adha\Assets\Scripts\ApiHandler.cs", "C#", 0, 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 8, 43
+"c:\Users\dimas\VR-Adha\Assets\Scripts\AutoRecenter.cs", "C#", 0, 0, 30, 0, 0, 0, 0, 0, 0, 0, 5, 9, 44
+"c:\Users\dimas\VR-Adha\Assets\Scripts\BackgroundMusic.cs", "C#", 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 1, 3, 18
+"c:\Users\dimas\VR-Adha\Assets\Scripts\ButtonSelector.cs", "C#", 0, 0, 105, 0, 0, 0, 0, 0, 0, 0, 4, 21, 130
+"c:\Users\dimas\VR-Adha\Assets\Scripts\CountDownTimer.cs", "C#", 0, 0, 56, 0, 0, 0, 0, 0, 0, 0, 1, 13, 70
+"c:\Users\dimas\VR-Adha\Assets\Scripts\CrosshairRaycaster.cs", "C#", 0, 0, 75, 0, 0, 0, 0, 0, 0, 0, 18, 19, 112
+"c:\Users\dimas\VR-Adha\Assets\Scripts\DadGenPicker.cs", "C#", 0, 0, 81, 0, 0, 0, 0, 0, 0, 0, 5, 17, 103
+"c:\Users\dimas\VR-Adha\Assets\Scripts\FoodClickHandler.cs", "C#", 0, 0, 66, 0, 0, 0, 0, 0, 0, 0, 1, 16, 83
+"c:\Users\dimas\VR-Adha\Assets\Scripts\FoodData.cs", "C#", 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 5, 17
+"c:\Users\dimas\VR-Adha\Assets\Scripts\FoodInfoDisplay.cs", "C#", 0, 0, 63, 0, 0, 0, 0, 0, 0, 0, 3, 12, 78
+"c:\Users\dimas\VR-Adha\Assets\Scripts\FoodListHandler.cs", "C#", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 5, 30
+"c:\Users\dimas\VR-Adha\Assets\Scripts\FoodLogger.cs", "C#", 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 6, 32
+"c:\Users\dimas\VR-Adha\Assets\Scripts\GenGenerator.cs", "C#", 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 3, 16, 78
+"c:\Users\dimas\VR-Adha\Assets\Scripts\GeneResultBooststrap.cs", "C#", 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 1, 3, 18
+"c:\Users\dimas\VR-Adha\Assets\Scripts\GeneResultData.cs", "C#", 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 3, 6, 35
+"c:\Users\dimas\VR-Adha\Assets\Scripts\GeneSlider.cs", "C#", 0, 0, 55, 0, 0, 0, 0, 0, 0, 0, 3, 17, 75
+"c:\Users\dimas\VR-Adha\Assets\Scripts\GenerateButtonBinder.cs", "C#", 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 2, 3, 19
+"c:\Users\dimas\VR-Adha\Assets\Scripts\GetNutrition.cs", "C#", 0, 0, 131, 0, 0, 0, 0, 0, 0, 0, 0, 22, 153
+"c:\Users\dimas\VR-Adha\Assets\Scripts\GlucoseDataStore.cs", "C#", 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6
+"c:\Users\dimas\VR-Adha\Assets\Scripts\GlucoseLevel.cs", "C#", 0, 0, 192, 0, 0, 0, 0, 0, 0, 0, 13, 35, 240
+"c:\Users\dimas\VR-Adha\Assets\Scripts\GoogleFormSender.cs", "C#", 0, 0, 310, 0, 0, 0, 0, 0, 0, 0, 2, 38, 350
+"c:\Users\dimas\VR-Adha\Assets\Scripts\GraphHistoryVisualizer.cs", "C#", 0, 0, 165, 0, 0, 0, 0, 0, 0, 0, 9, 36, 210
+"c:\Users\dimas\VR-Adha\Assets\Scripts\HandTracking.cs", "C#", 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 1, 5, 22
+"c:\Users\dimas\VR-Adha\Assets\Scripts\InputSubmitHandler.cs", "C#", 0, 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 5, 36
+"c:\Users\dimas\VR-Adha\Assets\Scripts\Instruction.cs", "C#", 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 3, 13
+"c:\Users\dimas\VR-Adha\Assets\Scripts\InsulinInjection.cs", "C#", 0, 0, 37, 0, 0, 0, 0, 0, 0, 0, 0, 9, 46
+"c:\Users\dimas\VR-Adha\Assets\Scripts\Login.cs", "C#", 0, 0, 58, 0, 0, 0, 0, 0, 0, 0, 0, 12, 70
+"c:\Users\dimas\VR-Adha\Assets\Scripts\MainGameInstruction.cs", "C#", 0, 0, 54, 0, 0, 0, 0, 0, 0, 0, 0, 8, 62
+"c:\Users\dimas\VR-Adha\Assets\Scripts\MenuMakanList.cs", "C#", 0, 0, 94, 0, 0, 0, 0, 0, 0, 0, 11, 20, 125
+"c:\Users\dimas\VR-Adha\Assets\Scripts\MenuMakanNavigator.cs", "C#", 0, 0, 64, 0, 0, 0, 0, 0, 0, 0, 2, 14, 80
+"c:\Users\dimas\VR-Adha\Assets\Scripts\MetadataFood.cs", "C#", 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 3, 12
+"c:\Users\dimas\VR-Adha\Assets\Scripts\MomGenPicker.cs", "C#", 0, 0, 61, 0, 0, 0, 0, 0, 0, 0, 4, 12, 77
+"c:\Users\dimas\VR-Adha\Assets\Scripts\NewInstruction.cs", "C#", 0, 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 4, 23
+"c:\Users\dimas\VR-Adha\Assets\Scripts\NextButton.cs", "C#", 0, 0, 30, 0, 0, 0, 0, 0, 0, 0, 2, 7, 39
+"c:\Users\dimas\VR-Adha\Assets\Scripts\NutritionInfoDisplay.cs", "C#", 0, 0, 60, 0, 0, 0, 0, 0, 0, 0, 4, 10, 74
+"c:\Users\dimas\VR-Adha\Assets\Scripts\RemoveFoodList.cs", "C#", 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 4, 15
+"c:\Users\dimas\VR-Adha\Assets\Scripts\RiskDiabetes.cs", "C#", 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 3, 39
+"c:\Users\dimas\VR-Adha\Assets\Scripts\SaveGeneticButton.cs", "C#", 0, 0, 93, 0, 0, 0, 0, 0, 0, 0, 1, 19, 113
+"c:\Users\dimas\VR-Adha\Assets\Scripts\SaveIdentityButton.cs", "C#", 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 7, 16, 90
+"c:\Users\dimas\VR-Adha\Assets\Scripts\SceneLoadHandler.cs", "C#", 0, 0, 53, 0, 0, 0, 0, 0, 0, 0, 3, 9, 65
+"c:\Users\dimas\VR-Adha\Assets\Scripts\SetTimeAxis.cs", "C#", 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 5, 24
+"c:\Users\dimas\VR-Adha\Assets\Scripts\ShowCreatedGen.cs", "C#", 0, 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 8, 39
+"c:\Users\dimas\VR-Adha\Assets\Scripts\ShowGeneResult.cs", "C#", 0, 0, 198, 0, 0, 0, 0, 0, 0, 0, 3, 38, 239
+"c:\Users\dimas\VR-Adha\Assets\Scripts\ShowResult.cs", "C#", 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 17, 127
+"c:\Users\dimas\VR-Adha\Assets\Scripts\SpoonacularServices.cs", "C#", 0, 0, 159, 0, 0, 0, 0, 0, 0, 0, 4, 30, 193
+"c:\Users\dimas\VR-Adha\Assets\Scripts\StageLoader.cs", "C#", 0, 0, 49, 0, 0, 0, 0, 0, 0, 0, 0, 10, 59
+"c:\Users\dimas\VR-Adha\Assets\Scripts\StoredData.cs", "C#", 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\dimas\VR-Adha\Assets\Scripts\Summary.cs", "C#", 0, 0, 73, 0, 0, 0, 0, 0, 0, 0, 3, 13, 89
+"c:\Users\dimas\VR-Adha\Assets\Scripts\SummaryAct.cs", "C#", 0, 0, 81, 0, 0, 0, 0, 0, 0, 0, 6, 15, 102
+"c:\Users\dimas\VR-Adha\Assets\Scripts\VRMobileController.cs", "C#", 0, 0, 90, 0, 0, 0, 0, 0, 0, 0, 12, 20, 122
+"c:\Users\dimas\VR-Adha\Assets\Scripts\actClickHandler.cs", "C#", 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 2, 11, 72
+"c:\Users\dimas\VR-Adha\Assets\Scripts\glucoseUI.cs", "C#", 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 6, 39
+"c:\Users\dimas\VR-Adha\Assets\Scripts\guide.cs", "C#", 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 3, 13, 66
+"c:\Users\dimas\VR-Adha\Assets\Scripts\resultInstruction.cs", "C#", 0, 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 4, 23
+"c:\Users\dimas\VR-Adha\Assets\Scripts\saveFinalButton.cs", "C#", 0, 0, 269, 0, 0, 0, 0, 0, 0, 0, 4, 38, 311
+"c:\Users\dimas\VR-Adha\Assets\Scripts\showButton.cs", "C#", 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 5, 21
+"c:\Users\dimas\VR-Adha\Assets\Scripts\summaryInstruction.cs", "C#", 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 3, 15
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs", "C#", 0, 0, 63, 0, 0, 0, 0, 0, 0, 0, 29, 37, 129
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01_UGUI.cs", "C#", 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 37, 40, 136
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark02.cs", "C#", 0, 0, 65, 0, 0, 0, 0, 0, 0, 0, 6, 27, 98
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark03.cs", "C#", 0, 0, 73, 0, 0, 0, 0, 0, 0, 0, 1, 19, 93
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark04.cs", "C#", 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 26, 19, 86
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs", "C#", 0, 0, 198, 0, 0, 0, 0, 0, 0, 0, 25, 69, 292
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\ChatController.cs", "C#", 0, 0, 31, 0, 0, 0, 0, 0, 0, 0, 5, 16, 52
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\DropdownSample.cs", "C#", 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 5, 20
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\EnvMapAnimator.cs", "C#", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 4, 9, 36
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\ObjectSpin.cs", "C#", 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 4, 13, 67
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\ShaderPropAnimator.cs", "C#", 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 5, 14, 52
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\SimpleScript.cs", "C#", 0, 0, 24, 0, 0, 0, 0, 0, 0, 0, 15, 20, 59
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs", "C#", 0, 0, 95, 0, 0, 0, 0, 0, 0, 0, 18, 46, 159
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_DigitValidator.cs", "C#", 0, 0, 19, 0, 0, 0, 0, 0, 0, 0, 5, 4, 28
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_ExampleScript_01.cs", "C#", 0, 0, 37, 0, 0, 0, 0, 0, 0, 0, 9, 19, 65
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_FrameRateCounter.cs", "C#", 0, 0, 91, 0, 0, 0, 0, 0, 0, 0, 11, 33, 135
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_PhoneNumberValidator.cs", "C#", 0, 0, 93, 0, 0, 0, 0, 0, 0, 0, 7, 6, 106
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventCheck.cs", "C#", 0, 0, 56, 0, 0, 0, 0, 0, 0, 0, 1, 17, 74
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.cs", "C#", 0, 0, 172, 0, 0, 0, 0, 0, 0, 0, 36, 56, 264
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextInfoDebugTool.cs", "C#", 0, 0, 409, 0, 0, 0, 0, 0, 0, 0, 97, 147, 653
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_A.cs", "C#", 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 17, 41, 158
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.cs", "C#", 0, 0, 250, 0, 0, 0, 0, 0, 0, 0, 191, 107, 548
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_UiFrameRateCounter.cs", "C#", 0, 0, 96, 0, 0, 0, 0, 0, 0, 0, 1, 28, 125
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TMPro_InstructionOverlay.cs", "C#", 0, 0, 55, 0, 0, 0, 0, 0, 0, 0, 6, 24, 85
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TeleType.cs", "C#", 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 15, 28, 83
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TextConsoleSimulator.cs", "C#", 0, 0, 79, 0, 0, 0, 0, 0, 0, 0, 13, 29, 121
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshProFloatingText.cs", "C#", 0, 0, 135, 0, 0, 0, 0, 0, 0, 0, 32, 57, 224
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshSpawner.cs", "C#", 0, 0, 46, 0, 0, 0, 0, 0, 0, 0, 13, 21, 80
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexColorCycler.cs", "C#", 0, 0, 48, 0, 0, 0, 0, 0, 0, 0, 13, 24, 85
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexJitter.cs", "C#", 0, 0, 105, 0, 0, 0, 0, 0, 0, 0, 26, 44, 175
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeA.cs", "C#", 0, 0, 99, 0, 0, 0, 0, 0, 0, 0, 23, 39, 161
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeB.cs", "C#", 0, 0, 112, 0, 0, 0, 0, 0, 0, 0, 29, 44, 185
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\VertexZoom.cs", "C#", 0, 0, 112, 0, 0, 0, 0, 0, 0, 0, 32, 48, 192
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs", "C#", 0, 0, 87, 0, 0, 0, 0, 0, 0, 0, 15, 43, 145
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl", "HLSL", 0, 0, 0, 130, 0, 0, 0, 0, 0, 0, 18, 31, 179
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader", "ShaderLab", 0, 0, 0, 0, 113, 0, 0, 0, 0, 0, 2, 31, 146
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader", "ShaderLab", 0, 0, 0, 0, 123, 0, 0, 0, 0, 0, 3, 30, 156
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader", "ShaderLab", 0, 0, 0, 0, 113, 0, 0, 0, 0, 0, 2, 31, 146
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader", "ShaderLab", 0, 0, 0, 0, 253, 0, 0, 0, 0, 0, 4, 70, 327
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader", "ShaderLab", 0, 0, 0, 0, 253, 0, 0, 0, 0, 0, 4, 65, 322
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader", "ShaderLab", 0, 0, 0, 0, 198, 0, 0, 0, 0, 0, 10, 51, 259
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader", "ShaderLab", 0, 0, 0, 0, 193, 0, 0, 0, 0, 0, 8, 52, 253
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader", "ShaderLab", 0, 0, 0, 0, 82, 0, 0, 0, 0, 0, 4, 21, 107
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader", "ShaderLab", 0, 0, 0, 0, 290, 0, 0, 0, 0, 0, 15, 85, 390
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader", "ShaderLab", 0, 0, 0, 0, 192, 0, 0, 0, 0, 0, 8, 51, 251
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader", "ShaderLab", 0, 0, 0, 0, 104, 0, 0, 0, 0, 0, 8, 28, 140
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader", "ShaderLab", 0, 0, 0, 0, 123, 0, 0, 0, 0, 0, 4, 33, 160
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_SDF.shader", "ShaderLab", 0, 0, 0, 0, 253, 0, 0, 0, 0, 0, 4, 70, 327
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader", "ShaderLab", 0, 0, 0, 0, 111, 0, 0, 0, 0, 0, 0, 21, 132
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMPro.cginc", "HLSL", 0, 0, 0, 63, 0, 0, 0, 0, 0, 0, 2, 20, 85
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc", "HLSL", 0, 0, 0, 129, 0, 0, 0, 0, 0, 0, 2, 35, 166
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc", "HLSL", 0, 0, 0, 62, 0, 0, 0, 0, 0, 0, 6, 13, 81
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc", "HLSL", 0, 0, 0, 75, 0, 0, 0, 0, 0, 0, 7, 18, 100
+"c:\Users\dimas\VR-Adha\Assets\TextMesh Pro\Sprites\EmojiOne.json", "JSON", 155, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 157
+"c:\Users\dimas\VR-Adha\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs", "C#", 0, 0, 195, 0, 0, 0, 0, 0, 0, 0, 1, 47, 243
+"c:\Users\dimas\VR-Adha\Assets\TutorialInfo\Scripts\Readme.cs", "C#", 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 3, 17
+"c:\Users\dimas\VR-Adha\Packages\manifest.json", "JSON", 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 50
+"c:\Users\dimas\VR-Adha\Packages\packages-lock.json", "JSON", 520, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 521
+"Total", "-", 5904, 2803, 6956, 459, 2401, 592, 472, 680, 1220, 1196, 1280, 3761, 27724
