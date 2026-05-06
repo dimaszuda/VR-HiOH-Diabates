@@ -11,7 +11,7 @@ public class DragToLookController : MonoBehaviour
     public bool limitVerticalRotation = true; // Default true
     public float minVerticalAngle = -60f;
     public float maxVerticalAngle = 60f;
-    public bool limitHorizontalRotation = true; // Tambahan
+    public bool limitHorizontalRotation = true;
     public float maxHorizontalAngle = 90f; // Batasi horizontal juga
     
     [Header("Smooth Rotation")]

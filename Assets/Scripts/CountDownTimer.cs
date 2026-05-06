@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class VirtualClock : MonoBehaviour
 {
-    public static VirtualClock Instance; // <-- Tambahkan ini
+    public static VirtualClock Instance;
 
     public TextMeshProUGUI timeText;
     private float virtualSeconds = 0f;
@@ -54,7 +54,6 @@ public class VirtualClock : MonoBehaviour
         }
     }
 
-    // Tambahkan method ini untuk akses dari luar
     public float GetVirtualHour()
     {
         int totalMinutes = Mathf.FloorToInt(virtualSeconds / 60f);

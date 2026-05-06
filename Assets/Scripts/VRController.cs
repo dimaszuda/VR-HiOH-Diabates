@@ -23,7 +23,7 @@ public class VRController : MonoBehaviour
     public float maxLookDown = -60f;   // Batas lihat ke bawah
     
     [Header("Comfort Settings")]
-    public bool lockRoll = true;       // PENTING! Lock Z-axis seperti PUBG
+    public bool lockRoll = true;       // PENTING! Lock Z-axis
     public float deadZone = 0.5f;      // Dead zone untuk gerakan kecil
     public bool useWorldReference = true; // Horizon lock reference
     
@@ -190,7 +190,7 @@ public class VRController : MonoBehaviour
     
     void ApplyRotation()
     {
-        // Apply rotation limits (PUBG style)
+        // Apply rotation limits
         if (limitVerticalRotation)
         {
             targetPitch = Mathf.Clamp(targetPitch, maxLookDown, maxLookUp);
@@ -209,7 +209,7 @@ public class VRController : MonoBehaviour
             currentYaw = targetYaw;
         }
         
-        // CRITICAL: Always lock roll to 0 (horizon lock like PUBG)
+        // CRITICAL: Always lock roll to 0
         if (lockRoll)
         {
             transform.rotation = Quaternion.Euler(currentPitch, currentYaw, 0f);
@@ -278,9 +278,9 @@ public class VRController : MonoBehaviour
             }
             
             GUILayout.Label("---");
-            GUILayout.Label("✅ Roll Locked (No Horizon Tilt)");
-            GUILayout.Label("✅ Rotation Limits Applied");
-            GUILayout.Label("✅ Dead Zone Active");
+            GUILayout.Label("Roll Locked (No Horizon Tilt)");
+            GUILayout.Label("Rotation Limits Applied");
+            GUILayout.Label("Dead Zone Active");
             
             if (GUILayout.Button("Recenter"))
             {

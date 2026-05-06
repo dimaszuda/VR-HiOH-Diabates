@@ -21,7 +21,7 @@ public class SaveGeneticButton : MonoBehaviour {
         button = GetComponent<Button>();
         errorMessage.gameObject.SetActive(false);
 
-        // 🔄 Restore status knob dari PlayerPrefs
+        // Restore status knob dari PlayerPrefs
         if (PlayerPrefs.HasKey("isKnobSaved")) {
             isKnobSaved = PlayerPrefs.GetInt("isKnobSaved") == 1;
             Debug.Log("Knob status " + isKnobSaved);

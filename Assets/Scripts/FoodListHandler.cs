@@ -3,7 +3,7 @@ using UnityEngine;
 public class FoodListHandler : MonoBehaviour {
     public MenuMakanList menuMakan;
     private MetadataFood foodData;
-    public AudioSource audioSource; // Tambahkan AudioSource
+    public AudioSource audioSource;
     public AudioClip clickSound;
 
     void Start() {

@@ -54,9 +54,6 @@ public class FoodInfoDisplay : MonoBehaviour
         infoPanel.transform.position = food.transform.position + new Vector3(0, 0.2f, 0);
 
         foodText.text = food.foodName;
-        // karboText.text = food.karboInfo;
-        // GIText.text = food.GIInfo;
-        // GLText.text = food.GLInfo;
 
         if (food.category == "low") {
             foodText.color = Color.green;

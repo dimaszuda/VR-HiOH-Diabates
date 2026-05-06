@@ -25,36 +25,36 @@ public class GraphHistoryVisualizer : MonoBehaviour {
     private string summary = "";
     private Coroutine exitButtonCoroutine;
 
-    // ⏱️ Timer variables untuk mengukur waktu pengiriman
+    // Timer variables untuk mengukur waktu pengiriman
     private System.DateTime sendStartTime;
     private bool isSending = false;
 
-    // 🚫 Anti-duplicate variables
+    // Anti-duplicate variables
     private bool hasDataBeenSent = false; // Flag untuk mencegah pengiriman berulang
     private bool isButtonProcessing = false; // Flag untuk mencegah multiple button clicks
 
-    // 📊 Progress tracking variables
+    // Progress tracking variables
     private int totalDataCount = 0;
-    private float averageTimePerData = 2.5f; // Based on your observation: 0.32-0.45s
+    private float averageTimePerData = 2.5f; 
     private bool autoRedirectAfterSend = true;
 
     private List<GoogleFormSender.ActPattern> dataToSend = new List<GoogleFormSender.ActPattern>();
     
     void Update() {
-        // ✅ animasi loading icon diputar jika aktif
+        // animasi loading icon diputar jika aktif
         if (loadingIcon != null && loadingIcon.gameObject.activeSelf) {
             loadingIcon.transform.Rotate(Vector3.forward * -200f * Time.deltaTime);
         }
 
-        // ⏱️ Update loading text dengan progress percentage jika sedang mengirim
+        // Update loading text dengan progress percentage jika sedang mengirim
         if (isSending && loadingText != null && loadingText.gameObject.activeSelf) {
             var elapsedTime = System.DateTime.Now - sendStartTime;
             
-            // 📊 Calculate estimated progress based on time elapsed
+            // Calculate estimated progress based on time elapsed
             float estimatedProgress = Mathf.Min((float)(elapsedTime.TotalSeconds / (totalDataCount * averageTimePerData)), 1f);
             int progressPercentage = Mathf.RoundToInt(estimatedProgress * 100f);
             
-            // 🎯 Show progress with estimated completion
+            // Show progress with estimated completion
             float estimatedTotalTime = totalDataCount * averageTimePerData;
             float remainingTime = Mathf.Max(estimatedTotalTime - (float)elapsedTime.TotalSeconds, 0);
             
@@ -66,11 +66,11 @@ public class GraphHistoryVisualizer : MonoBehaviour {
         Debug.Log("⏳ Mulai menampilkan histori...");
 
         if (ActivityLogger.Instance == null || FoodLogger.Instance == null) {
-            Debug.LogWarning("❌ Data histori tidak tersedia.");
+            Debug.LogWarning("Data histori tidak tersedia.");
             return;
         }
 
-        // 🚫 Reset flags saat mulai
+        // Reset flags saat mulai
         hasDataBeenSent = false;
         isButtonProcessing = false;
 
@@ -118,7 +118,7 @@ public class GraphHistoryVisualizer : MonoBehaviour {
         List<StoredData> foodHistory = FoodLogger.Instance.foodHistory;
         Debug.Log($"🍽️ Total Food History Count: {foodHistory.Count}");
 
-        // 🎯 Tampilkan aktivitas
+        // Tampilkan aktivitas
         foreach (var activity in activityHistory) {
             float relativeTime = (activity.virtualHour - startHour) / totalHourRange;
             float posX = relativeTime * activityIconContainer.rect.width;
@@ -147,7 +147,7 @@ public class GraphHistoryVisualizer : MonoBehaviour {
             dataToSend.Add(data);
         }
 
-        // 🍽️ Tampilkan makanan
+        // Tampilkan makanan
         foreach (var food in foodHistory) {
             float relativeTime = (food.virtualHour - startHour) / totalHourRange;
             float posX = relativeTime * foodIconContainer.rect.width;
@@ -178,15 +178,15 @@ public class GraphHistoryVisualizer : MonoBehaviour {
 
         Debug.Log($"📊 Total data yang akan dikirim: {dataToSend.Count}");
         
-        // 📊 Set total data count untuk progress tracking
+        // Set total data count untuk progress tracking
         totalDataCount = dataToSend.Count;
     }
 
     /// <summary>
-    /// ✅ Fungsi ini dipanggil saat tombol Save diklik - DENGAN ANTI-DUPLICATE
+    /// Fungsi ini dipanggil saat tombol Save diklik - DENGAN ANTI-DUPLICATE
     /// </summary>
     public void OnSaveButton() {
-        // 🚫 STEP 1: Cek apakah sedang processing atau sudah pernah kirim
+        // STEP 1: Cek apakah sedang processing atau sudah pernah kirim
         if (isButtonProcessing) {
             Debug.LogWarning("⚠️ Button sedang diproses, abaikan klik ganda!");
             return;
@@ -202,19 +202,19 @@ public class GraphHistoryVisualizer : MonoBehaviour {
             return;
         }
 
-        // 🚫 STEP 2: Set flags untuk mencegah duplicate calls
+        // STEP 2: Set flags untuk mencegah duplicate calls
         isButtonProcessing = true;
         hasDataBeenSent = true;
 
-        // 🚫 STEP 3: Disable button immediately
+        // STEP 3: Disable button immediately
         if (button != null) {
             button.SetActive(false);
         }
 
-        // ⏱️ START TIMER - Catat waktu mulai mengirim
+        // ⏱START TIMER - Catat waktu mulai mengirim
         sendStartTime = System.DateTime.Now;
         isSending = true;
-        Debug.Log($"📤 [{sendStartTime:HH:mm:ss.fff}] Mulai mengirim {dataToSend.Count} data aktivitas dan makanan...");
+        Debug.Log($"[{sendStartTime:HH:mm:ss.fff}] Mulai mengirim {dataToSend.Count} data aktivitas dan makanan...");
         
         ShowLoadingUI(true);
         
@@ -222,17 +222,17 @@ public class GraphHistoryVisualizer : MonoBehaviour {
             StopCoroutine(exitButtonCoroutine);
         exitButtonCoroutine = StartCoroutine(ShowExitButtonWithDelay(3f));
 
-        // 🚫 STEP 4: Validasi GoogleFormSender instance
+        // STEP 4: Validasi GoogleFormSender instance
         if (GoogleFormSender.Instance == null) {
             Debug.LogError("❌ GoogleFormSender.Instance is null!");
             ResetSendingState();
             return;
         }
 
-        // 📤 STEP 5: Kirim data dengan callback yang aman
+        // STEP 5: Kirim data dengan callback yang aman
         GoogleFormSender.Instance.SendActPatternsSequentially(dataToSend, OnDataSendComplete);
         
-        // 📊 Kirim summary
+        // Kirim summary
         var summaryPattern = new GoogleFormSender.PatternResult {
             targetSheet = "hasil_pola",
             class_name = kelas,
@@ -245,37 +245,37 @@ public class GraphHistoryVisualizer : MonoBehaviour {
     }
 
     /// <summary>
-    /// 🚫 Callback yang dipanggil setelah pengiriman selesai
+    /// Callback yang dipanggil setelah pengiriman selesai
     /// </summary>
     private void OnDataSendComplete() {
-        // ⏱️ END TIMER - Hitung total waktu pengiriman
+        // END TIMER - Hitung total waktu pengiriman
         var sendEndTime = System.DateTime.Now;
         var totalDuration = sendEndTime - sendStartTime;
         isSending = false;
         
-        Debug.Log($"✅ [{sendEndTime:HH:mm:ss.fff}] Semua data aktivitas & makanan berhasil dikirim.");
-        Debug.Log($"⏱️ TOTAL WAKTU PENGIRIMAN: {totalDuration.TotalSeconds:F2} detik ({totalDuration.TotalMilliseconds:F0} ms)");
-        Debug.Log($"📊 STATISTIK: {dataToSend.Count} data dikirim dalam {totalDuration.TotalSeconds:F2}s = {(dataToSend.Count / totalDuration.TotalSeconds):F2} data/detik");
+        Debug.Log($"[{sendEndTime:HH:mm:ss.fff}] Semua data aktivitas & makanan berhasil dikirim.");
+        Debug.Log($"TOTAL WAKTU PENGIRIMAN: {totalDuration.TotalSeconds:F2} detik ({totalDuration.TotalMilliseconds:F0} ms)");
+        Debug.Log($"STATISTIK: {dataToSend.Count} data dikirim dalam {totalDuration.TotalSeconds:F2}s = {(dataToSend.Count / totalDuration.TotalSeconds):F2} data/detik");
         
         // Update loading text untuk menampilkan hasil
         if (loadingText != null) {
             loadingText.text = $"Selesai! 100% ({totalDuration.TotalSeconds:F1}s)";
         }
 
-        // 🚫 Reset processing state (tapi tetap keep hasDataBeenSent = true)
+        // Reset processing state (tapi tetap keep hasDataBeenSent = true)
         isButtonProcessing = false;
         
-        // 🏠 Auto redirect ke homepage setelah delay singkat
+        // Auto redirect ke homepage setelah delay singkat
         if (autoRedirectAfterSend) {
             StartCoroutine(AutoRedirectToHomepage());
         }
     }
 
     /// <summary>
-    /// 🏠 Auto redirect ke homepage dengan delay
+    /// Auto redirect ke homepage dengan delay
     /// </summary>
     private IEnumerator AutoRedirectToHomepage() {
-        Debug.Log("🏠 Auto redirect ke homepage dalam 2 detik...");
+        Debug.Log("Auto redirect ke homepage dalam 2 detik...");
         
         // Update loading text untuk countdown
         if (loadingText != null) {
@@ -288,12 +288,12 @@ public class GraphHistoryVisualizer : MonoBehaviour {
             yield return new WaitForSeconds(2f);
         }
         
-        Debug.Log("🏠 Redirecting to homepage...");
+        Debug.Log("Redirecting to homepage...");
         stageLoader.LoadHomepageScene();
     }
 
     /// <summary>
-    /// 🚫 Reset state jika terjadi error
+    /// Reset state jika terjadi error
     /// </summary>
     private void ResetSendingState() {
         isSending = false;
@@ -332,7 +332,7 @@ public class GraphHistoryVisualizer : MonoBehaviour {
     }
 
     /// <summary>
-    /// 🔧 Debug method untuk reset state (bisa dipanggil dari inspector saat testing)
+    /// Debug method untuk reset state (bisa dipanggil dari inspector saat testing)
     /// </summary>
     [ContextMenu("Reset Send State")]
     public void DebugResetSendState() {

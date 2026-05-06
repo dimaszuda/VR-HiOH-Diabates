@@ -29,7 +29,6 @@ public class ApiHandler : MonoBehaviour {
     }
 
     public void OnSearchFood() {
-        // ✅ TAMBAHAN: Cek apakah nutrition data valid
         if (GetNutrition.Instance.currentNutritionInfo == null) {
             Debug.LogWarning("No valid nutrition data available!");
             searchResult.SetActive(false);
@@ -38,9 +37,8 @@ public class ApiHandler : MonoBehaviour {
 
         int index = menuMakan.GetCurrentListCount();
         if (index >= menuMakan.foodItems.Length)
-            return; // daftar penuh
+            return;
 
-        // ✅ Sekarang aman karena sudah di-cek null
         carb = GetNutrition.Instance.currentNutritionInfo.carbohydrate.ToString("F1");
         gl = GetNutrition.Instance.currentNutritionInfo.glycemic_index.ToString("F1");
         gi = GetNutrition.Instance.currentNutritionInfo.glycemic_load.ToString("F1");

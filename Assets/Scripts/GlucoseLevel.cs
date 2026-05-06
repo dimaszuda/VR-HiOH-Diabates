@@ -24,7 +24,7 @@ public class GlucoseLevel : MonoBehaviour {
     
     private bool isRunning = false;
 
-    public static GlucoseLevel Instance; // Singleton instance
+    public static GlucoseLevel Instance;
 
     private List<GlucoseEvent> activeEvents = new List<GlucoseEvent>();
 

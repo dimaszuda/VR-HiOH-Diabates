@@ -92,11 +92,9 @@ public class AlertHighGlucose : MonoBehaviour {
             // === PAUSE 2 DETIK ===
             yield return new WaitForSeconds(pauseAfterSet);
             
-            // Loop akan mengulang otomatis selama isAlertActive = true
         }
     }
 
-    // Optional: Fungsi untuk ubah pola dari luar (bisa dipanggil script lain)
     public void SetBlinkingPattern(float beepTime, float intervalTime, float pauseTime) {
         beepDuration = beepTime;
         beepInterval = intervalTime;

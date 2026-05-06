@@ -7,7 +7,7 @@ public class DadGenPicker : MonoBehaviour
 {
     public Image[] knobImages;
 
-    public Color color1 = Color.black; // hitam
+    public Color color1 = Color.black;
     public Color color2 = Color.blue;
     public Color color3 = Color.green;
     public Color color4 = Color.red;

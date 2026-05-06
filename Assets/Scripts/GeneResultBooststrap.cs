@@ -12,6 +12,6 @@ public class GeneResultBooststrap : MonoBehaviour {
             DontDestroyOnLoad(go);                     // biar tidak dihancurkan saat pindah scene
         }
 
-        Destroy(gameObject); // hancurkan bootstrap ini karena tugasnya selesai
+        Destroy(gameObject); 
     }
 }

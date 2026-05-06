@@ -23,7 +23,7 @@ public class ShowGeneResult : MonoBehaviour {
     private string full_name = "";
     private string number = "";
 
-    public AudioSource audioSource; // Tambahkan AudioSource
+    public AudioSource audioSource;
     public AudioClip clickSound;
 
     public Image loadingIcon;
@@ -209,7 +209,7 @@ public class ShowGeneResult : MonoBehaviour {
         ShowLoadingUI(true);
 
         GoogleFormSender.Instance.SendOptionGenesSequentially(dataList, () => {
-            Debug.Log("✅ Semua data berhasil dikirim.");
+            Debug.Log("Semua data berhasil dikirim.");
             ShowLoadingUI(false);
             stageLoader.LoadHomepageScene();
         });

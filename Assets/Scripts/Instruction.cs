@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.UI; // penting agar bisa akses komponen Button
+using UnityEngine.UI;
 
 public class Instruction : MonoBehaviour {
     public GameObject overlay;

@@ -130,7 +130,7 @@ public class GoogleFormSender : MonoBehaviour {
         };
 
         return new SheetUploadPayload {
-            scene = "pilihan_gen", // atau bisa di-hardcode kalau mau
+            scene = "pilihan_gen",
             values = new List<List<object>> { row }
         };
     }
@@ -156,7 +156,7 @@ public class GoogleFormSender : MonoBehaviour {
         };
 
         return new SheetUploadPayload {
-            scene = "gen_yang_dipilih", // atau bisa di-hardcode kalau mau
+            scene = "gen_yang_dipilih",
             values = new List<List<object>> { row }
         };
     }
@@ -181,7 +181,7 @@ public class GoogleFormSender : MonoBehaviour {
         };
 
         return new SheetUploadPayload {
-            scene = "pola_aktivitas", // atau bisa di-hardcode kalau mau
+            scene = "pola_aktivitas",
             values = new List<List<object>> { row }
         };
     }
@@ -203,7 +203,7 @@ public class GoogleFormSender : MonoBehaviour {
         };
 
         return new SheetUploadPayload {
-            scene = "kantin_sehat", // atau bisa di-hardcode kalau mau
+            scene = "kantin_sehat",
             values = new List<List<object>> { row }
         };
     }
@@ -225,7 +225,7 @@ public class GoogleFormSender : MonoBehaviour {
         };
         
         return new SheetUploadPayload {
-            scene = "hasil_kantin_sehat", // atau bisa di-hardcode kalau mau
+            scene = "hasil_kantin_sehat",
             values = new List<List<object>> { row }
         };
     }
@@ -242,7 +242,7 @@ public class GoogleFormSender : MonoBehaviour {
         };
         
         return new SheetUploadPayload {
-            scene = "hasil_pola", // atau bisa di-hardcode kalau mau
+            scene = "hasil_pola",
             values = new List<List<object>> { row }
         };
     }

@@ -6,16 +6,15 @@ using TMPro;
 
 public class actClickHandler : MonoBehaviour
 {
-    public GlucoseLevel glucoseManager; // drag dari inspector
+    public GlucoseLevel glucoseManager;
     private ActivityData actData;
     private Button btn;
     private RawImage image;
     public float cooldownDuration = 5f; // waktu delay dalam detik
 
-    public AudioSource audioSource; // Tambahkan AudioSource
+    public AudioSource audioSource;
     public AudioClip clickSound;
 
-    // 🚫 Anti-duplicate flag
     private bool isProcessing = false;
 
     void Start()
@@ -26,21 +25,15 @@ public class actClickHandler : MonoBehaviour
 
         if (btn != null)
         {
-            // 🚫 CLEAR semua existing listeners dulu untuk mencegah duplikat
             btn.onClick.RemoveAllListeners();
             
-            // ✅ Tambahkan HANYA satu listener
             btn.onClick.AddListener(OnActivityClicked);
         }
     }
 
-    /// <summary>
-    /// ✅ Method utama yang dipanggil saat button diklik
-    /// JANGAN set ini di Inspector OnClick! Sudah otomatis dari code.
-    /// </summary>
     void OnActivityClicked()
     {
-        // 🚫 Cegah multiple clicks dalam waktu singkat
+        // Cegah multiple clicks dalam waktu singkat
         if (isProcessing) {
             Debug.LogWarning($"⚠️ Activity {actData.actName} sedang diproses, abaikan klik!");
             return;
@@ -59,9 +52,6 @@ public class actClickHandler : MonoBehaviour
         StartCoroutine(ReenableButtonAfterDelay());
     }
 
-    /// <summary>
-    /// 🎯 Proses utama saat activity diklik
-    /// </summary>
     private void ProcessActivityClick()
     {
         PlayClickSound();
@@ -105,7 +95,6 @@ public class actClickHandler : MonoBehaviour
         
         if (image != null) {
             image.enabled = enabled;
-            // Optional: Bisa tambahkan efek visual seperti transparency
             Color color = image.color;
             color.a = enabled ? 1f : 0.5f;
             image.color = color;
@@ -126,15 +115,10 @@ public class actClickHandler : MonoBehaviour
         Debug.Log($"✅ Activity {actData.actName} ready to use again");
     }
 
-    /// <summary>
-    /// 🔧 PUBLIC method untuk Inspector (DEPRECATED - jangan dipakai!)
-    /// Kept for backward compatibility, tapi sebaiknya hapus dari Inspector OnClick
-    /// </summary>
     [System.Obsolete("Use OnActivityClicked() instead. Remove this from Inspector OnClick events!")]
     public void OnClickFood()
     {
         Debug.LogWarning($"⚠️ DEPRECATED: OnClickFood() called for {actData.actName}. Please remove from Inspector and use code-based event only!");
-        // Tidak melakukan apa-apa untuk mencegah duplikasi
     }
 
     /// <summary>
@@ -148,9 +132,6 @@ public class actClickHandler : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// 🔧 Reset state jika needed
-    /// </summary>
     [ContextMenu("Reset State")]
     public void DebugResetState()
     {

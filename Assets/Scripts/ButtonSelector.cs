@@ -18,7 +18,7 @@ public class ButtonSelector : MonoBehaviour {
     public bool isTeamSelected = false;
     public bool isClassSelected = false;
 
-    public AudioSource audioSource; // Tambahkan AudioSource
+    public AudioSource audioSource;
     public AudioClip clickSound;
 
     public static ButtonSelector Instance;
@@ -97,7 +97,7 @@ public class ButtonSelector : MonoBehaviour {
 
     public void TryHandleClick(Button clickedButton)
     {
-        // Coba cek apakah ini adalah tombol team
+        // Cek apakah ini adalah tombol team
         foreach (Button btn in teamButtons)
         {
             if (btn == clickedButton)
@@ -107,7 +107,7 @@ public class ButtonSelector : MonoBehaviour {
             }
         }
 
-        // Coba cek apakah ini tombol class
+        // Cek apakah ini tombol class
         foreach (Button btn in classButtons)
         {
             if (btn == clickedButton)

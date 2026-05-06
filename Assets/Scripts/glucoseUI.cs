@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class glucoseUI : MonoBehaviour {
-    public GlucoseLevel glucoseLogic; // drag reference ke script GlucoseLevel
+    public GlucoseLevel glucoseLogic;
     public TextMeshProUGUI currentConditionText;
 
     void Update()

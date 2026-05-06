@@ -7,7 +7,7 @@ public class MenuMakanNavigator : MonoBehaviour
     private int currentIndex = 0;
     public float fadeDuration = 0.5f;
 
-    public AudioSource audioSource; // Tambahkan AudioSource
+    public AudioSource audioSource;
     public AudioClip clickSound;
 
     void Start()

@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class FoodClickHandler : MonoBehaviour
 {
-    public GlucoseLevel glucoseManager; // drag dari inspector
+    public GlucoseLevel glucoseManager;
     private FoodData foodData;
 
     public AudioSource audioSource; 
@@ -13,12 +13,10 @@ public class FoodClickHandler : MonoBehaviour
     [Header("Cooldown Settings")]
     public float cooldownTime = 3f; // lama cooldown (detik)
     
-    // 🚫 Enhanced cooldown management
     private bool isCooldown = false;
     private Coroutine cooldownCoroutine = null; // Track active coroutine
     private float cooldownEndTime = 0f; // Track when cooldown should end
 
-    // Optional: Visual feedback components
     private Button buttonComponent;
     private Image imageComponent;
 
@@ -26,14 +24,13 @@ public class FoodClickHandler : MonoBehaviour
     {
         foodData = GetComponent<FoodData>();
         
-        // Get optional visual components for feedback
         buttonComponent = GetComponent<Button>();
         imageComponent = GetComponent<Image>();
     }
 
     void Update()
     {
-        // 🔄 Fallback check - pastikan cooldown state konsisten
+        // Pastikan cooldown state konsisten
         if (isCooldown && Time.time >= cooldownEndTime && cooldownEndTime > 0)
         {
             Debug.LogWarning($"🔧 Cooldown fallback reset for {foodData.foodName}");
@@ -43,7 +40,7 @@ public class FoodClickHandler : MonoBehaviour
 
     public void OnClickFood()
     {
-        // 🚫 Enhanced cooldown check with detailed logging
+        // Enhanced cooldown check with detailed logging
         if (isCooldown)
         {
             float remainingTime = cooldownEndTime - Time.time;
@@ -53,11 +50,11 @@ public class FoodClickHandler : MonoBehaviour
 
         Debug.Log($"🍽️ {foodData.foodName} diklik - memulai proses");
 
-        // 🚫 Immediately set cooldown to prevent double-clicks
+        // Immediately set cooldown to prevent double-clicks
         isCooldown = true;
         cooldownEndTime = Time.time + cooldownTime;
 
-        // 🛑 Stop any existing cooldown coroutine
+        // Stop any existing cooldown coroutine
         if (cooldownCoroutine != null)
         {
             StopCoroutine(cooldownCoroutine);
@@ -67,10 +64,9 @@ public class FoodClickHandler : MonoBehaviour
         // Process food click
         ProcessFoodClick();
 
-        // 🕒 Start new cooldown
+        // Start new cooldown
         cooldownCoroutine = StartCoroutine(CooldownRoutine());
         
-        // 🎨 Optional: Update visual feedback
         UpdateVisualFeedback(false);
     }
 
@@ -122,37 +118,31 @@ public class FoodClickHandler : MonoBehaviour
     {
         Debug.Log($"⏳ Cooldown dimulai untuk {foodData.foodName}: {cooldownTime} detik");
         
-        // 🕒 Wait for cooldown duration
+        // Wait for cooldown duration
         yield return new WaitForSeconds(cooldownTime);
         
-        // 🔄 Double-check: pastikan coroutine ini masih yang aktif
+        // Double-check: pastikan coroutine ini masih yang aktif
         if (cooldownCoroutine == null)
         {
             Debug.LogWarning($"⚠️ Cooldown coroutine sudah di-stop untuk {foodData.foodName}");
             yield break;
         }
 
-        // ✅ Reset cooldown state
+        // Reset cooldown state
         ResetCooldownState();
         Debug.Log($"✅ Cooldown selesai: {foodData.foodName} bisa diklik lagi");
     }
 
-    /// <summary>
-    /// 🔄 Safely reset cooldown state
-    /// </summary>
     private void ResetCooldownState()
     {
         isCooldown = false;
         cooldownEndTime = 0f;
         cooldownCoroutine = null;
         
-        // 🎨 Update visual feedback
+        // Update visual feedback
         UpdateVisualFeedback(true);
     }
 
-    /// <summary>
-    /// 🎨 Optional visual feedback for cooldown state
-    /// </summary>
     private void UpdateVisualFeedback(bool isClickable)
     {
         if (buttonComponent != null)
@@ -168,9 +158,6 @@ public class FoodClickHandler : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// 🔧 Force reset cooldown (untuk debugging)
-    /// </summary>
     [ContextMenu("Force Reset Cooldown")]
     public void DebugForceResetCooldown()
     {
@@ -182,9 +169,6 @@ public class FoodClickHandler : MonoBehaviour
         Debug.Log($"🔧 Force reset cooldown untuk {foodData.foodName}");
     }
 
-    /// <summary>
-    /// 🔍 Debug current cooldown status
-    /// </summary>
     [ContextMenu("Debug Cooldown Status")]
     public void DebugCooldownStatus()
     {
@@ -196,9 +180,6 @@ public class FoodClickHandler : MonoBehaviour
                  $"\n- Time.time: {Time.time:F2}");
     }
 
-    /// <summary>
-    /// 🧹 Cleanup when object is destroyed
-    /// </summary>
     void OnDestroy()
     {
         if (cooldownCoroutine != null)
@@ -207,9 +188,6 @@ public class FoodClickHandler : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// 🧹 Reset state when object is disabled
-    /// </summary>
     void OnDisable()
     {
         if (cooldownCoroutine != null)

@@ -112,9 +112,9 @@ public class saveFinalButton : MonoBehaviour {
     public void onSendData() {
         saveButton.SetActive(false);
 
-        ShowLoadingUI(true); // ✅ tampilkan loading
+        ShowLoadingUI(true); // tampilkan loading
 
-        // ✅ kumpulkan semua data makanan dulu
+        // kumpulkan semua data makanan dulu
         makananToSend.Clear();
         for (int i = 0; i < 4; i++) {
             var namaGO = GetChildByName(menuMakan.foodItems[i], "nama makanan");
@@ -141,10 +141,10 @@ public class saveFinalButton : MonoBehaviour {
                 glycemic_load = gl
             };
 
-            makananToSend.Add(data); // ✅ tambahkan ke list
+            makananToSend.Add(data); // tambahkan ke list
         }
 
-        // ✅ kirim makanan dulu, lalu baru hasil ringkasan
+        // kirim makanan dulu, lalu baru hasil ringkasan
         GoogleFormSender.Instance.SendKantinSehatSequentially(makananToSend, () => {
             UploadKantinResult(); // lanjut kirim hasil
         });

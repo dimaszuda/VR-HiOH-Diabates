@@ -40,7 +40,7 @@ public class SaveIdentityButton : MonoBehaviour {
         bool numberFilled = !string.IsNullOrEmpty(number.text.Trim());
 
         if (teamSelected && classSelected && nameFilled && numberFilled) {
-            // ✅ Semua syarat terpenuhi
+            // Semua syarat terpenuhi
             message.gameObject.SetActive(true);
             message.text = "Aku siap bermain permainan ini";
             message.color = Color.green;
@@ -48,7 +48,7 @@ public class SaveIdentityButton : MonoBehaviour {
             hasShownError = false;
         }
         else {
-            // ❌ Belum lengkap
+            // Belum lengkap
             button.GetComponent<Image>().color = disabledColor;
 
             if (hasShownError) {
@@ -71,7 +71,7 @@ public class SaveIdentityButton : MonoBehaviour {
         bool numberFilled = !string.IsNullOrEmpty(number.text.Trim());
 
         if (teamSelected && classSelected && nameFilled && numberFilled) {
-            // ✅ Simpan ke PlayerPrefs
+            // Simpan ke PlayerPrefs
             PlayerPrefs.SetString("full_name", name.text.Trim());
             PlayerPrefs.SetString("number", number.text.Trim());
             PlayerPrefs.Save();
@@ -81,7 +81,7 @@ public class SaveIdentityButton : MonoBehaviour {
             stageLoader.LoadGenerateGeneticScene();
         } 
         else {
-            // ❌ User klik tombol tapi belum lengkap → trigger pesan error
+            // User klik tombol tapi belum lengkap → trigger pesan error
             hasShownError = true;
             ValidateInputs();
         }

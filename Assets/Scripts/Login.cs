@@ -1,3 +1,5 @@
+using System.Security.Cryptography;
+using System.Text;
 using TMPro;
 using UnityEngine;
 
@@ -54,11 +56,13 @@ public class Login : MonoBehaviour {
         PolaAct.SetActive(true);
     }
 
+    private const string hashPola = "64b2fa4d1a559557f9934b9a375abb04b2899694a9feb1b9e9e36d8766f8a3f2";
+
     public void validatePola() {
         Debug.Log("LOGIN POLA ACT");
         HideWarning(); // Reset warning sebelum validasi
         
-        if (pinPola.text == "721098") {
+        if (HashPin(pinPola.text) == hashPola) {
             stageLoader.LoadMainGame();
         }
         else {
@@ -86,15 +90,26 @@ public class Login : MonoBehaviour {
         KantinSehat.SetActive(true);
     }
 
+    private const string hashKantin = "46554c36bfddf0d05b9f5bb9f2fb02c0838c294ced9ad6caa45aab73abe20d1d";
+
     public void validateKantin() {
         Debug.Log("LOGIN KANTIN SEHAT");
         HideWarning(); // Reset warning sebelum validasi
         
-        if (pinKantin.text == "329183") {
+        if (HashPin(pinKantin.text) == hashKantin) {
             stageLoader.LoadKantinSehat();
         }
         else {
             ShowWarning("PIN salah! Coba lagi!");
+        }
+    }
+
+    private static string HashPin(string pin) {
+        using (SHA256 sha256 = SHA256.Create()) {
+            byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(pin));
+            StringBuilder sb = new StringBuilder();
+            foreach (byte b in bytes) sb.Append(b.ToString("x2"));
+            return sb.ToString();
         }
     }
 

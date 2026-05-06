@@ -13,7 +13,6 @@ public class CrosshairRaycaster : MonoBehaviour
 
     void Awake()
     {
-        // Pastikan kamera tidak null dan terhubung sejak awal
         if (mainCamera == null)
         {
             mainCamera = Camera.main;
@@ -63,13 +62,6 @@ public class CrosshairRaycaster : MonoBehaviour
                         lastButton = currentButton;
                     }
                 }
-
-                // // Jika tombol diklik (mouse atau layar sentuh)
-                // if (Input.GetMouseButtonDown(0) ||
-                //     (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began))
-                // {
-                //     ExecuteButton(currentButton);
-                // }
 
                 return;
             }

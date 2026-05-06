@@ -9,13 +9,8 @@ public class GetNutrition : MonoBehaviour
     public static GetNutrition Instance;
 
     [Header("API Configuration")]
-    [SerializeField] private string[] apiKeys = {
-        "YOUR_API_KEY_1_HERE",
-        "YOUR_API_KEY_2_HERE", 
-        "YOUR_API_KEY_3_HERE",
-        "YOUR_API_KEY_4_HERE",
-        "YOUR_API_KEY_5_HERE"
-    };
+    [SerializeField] private ApiKeyConfig apiKeyConfig;
+    private string[] apiKeys;
 
     [Header("UI References")]
     public TMP_InputField searchInputField;
@@ -28,7 +23,7 @@ public class GetNutrition : MonoBehaviour
     public Image loadingIndicator;
 
     [Header("Debug Info")]
-    public TextMeshProUGUI debugText; // Optional: untuk show current API key index
+    public TextMeshProUGUI debugText;
 
     private SpoonacularService spoonacularService;
     private bool isLoading = false;
@@ -40,6 +35,12 @@ public class GetNutrition : MonoBehaviour
 
     void Awake()
     {
+        if (apiKeyConfig != null)
+            apiKeys = apiKeyConfig.apiKeys;
+
+        if (apiKeys == null || apiKeys.Length == 0)
+            Debug.LogError("[GetNutrition] API keys tidak ditemukan! Assign ApiKeyConfig di Inspector.");
+
         spoonacularService = gameObject.AddComponent<SpoonacularService>();
         SetCurrentApiKey();
 
@@ -56,7 +57,6 @@ public class GetNutrition : MonoBehaviour
 
     void Start()
     {
-        // searchButton.onClick.AddListener(OnSearchButtonClicked);
         searchInputField.onValueChanged.AddListener(OnInputChanged);        
         InitUI();
         UpdateDebugText();
@@ -275,7 +275,7 @@ public class GetNutrition : MonoBehaviour
         Debug.Log("[GetNutrition] API keys blacklist reset!");
     }
 
-    // Method untuk manual switch API key (untuk testing)
+    // Method untuk manual switch API key
     [ContextMenu("Switch to Next API Key")]
     public void ManualSwitchApiKey()
     {

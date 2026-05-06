@@ -5,7 +5,7 @@ using TMPro;
 public class ProfileManager : MonoBehaviour
 {
     [Header("UI References")]
-    public TextMeshProUGUI profileNameText; // Drag ProfileNameText ke sini di Inspector
+    public TextMeshProUGUI profileNameText;
     
     [Header("Settings")]
     public string playerPrefsKey = "full_name"; // Key untuk PlayerPrefs
@@ -54,7 +54,6 @@ public class ProfileManager : MonoBehaviour
         // Tampilkan text dengan format yang bagus
         profileNameText.text = "Player: " + currentProfileName;
         
-        // Pastikan text terlihat (aktif)
         profileNameText.gameObject.SetActive(true);
     }
     
@@ -70,7 +69,6 @@ public class ProfileManager : MonoBehaviour
         LoadProfile();
     }
     
-    // Fungsi untuk testing di Editor (optional)
     [System.Obsolete("Hanya untuk testing")]
     public void TestSetProfile(string testName)
     {

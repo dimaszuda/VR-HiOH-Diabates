@@ -3,8 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class StageLoader : MonoBehaviour
 {
-    public AudioSource audioSource; // Tambahkan AudioSource
-    public AudioClip clickSound;    // Tambahkan AudioClip
+    public AudioSource audioSource;
+    public AudioClip clickSound; 
 
     public void LoadPanelMulaiScene()
     {

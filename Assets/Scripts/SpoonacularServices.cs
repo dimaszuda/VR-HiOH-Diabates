@@ -50,7 +50,7 @@ class Property
     public double amount;
 }
 
-// ✅ Tambahkan class pembungkus untuk payload
+// Tambahkan class pembungkus untuk payload
 [System.Serializable]
 class IngredientPayload
 {
@@ -72,7 +72,7 @@ public class SpoonacularService : MonoBehaviour
         _apiKey = apiKey;
     }
 
-    // ✅ NEW: Methods with limit check for multiple API keys support
+    // NEW: Methods with limit check for multiple API keys support
     public IEnumerator GetIdWithLimitCheck(string menuItem, System.Action<int, bool> callback)
     {
         var list = new List<string> { menuItem };
@@ -234,7 +234,7 @@ public class SpoonacularService : MonoBehaviour
         return false;
     }
 
-    // ✅ LEGACY: Original methods for backward compatibility
+    // LEGACY: Original methods for backward compatibility
     public IEnumerator GetId(string menuItem, System.Action<int> callback)
     {
         var list = new List<string> { menuItem };

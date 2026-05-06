@@ -7,7 +7,6 @@ public class GenerateButtonBinder : MonoBehaviour
 
     void Start()
     {
-        // pastikan GenGenerator.Instance sudah ada
         if (GenGenerator.Instance != null && generateButton != null)
         {
             // hapus listener lama lalu tambah listener baru

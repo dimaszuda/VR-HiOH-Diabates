@@ -26,7 +26,6 @@ public class GenGenerator : MonoBehaviour
     }
 
     // Reset state saat scene awal dibuka lagi
-    // Reset state saat scene awal dibuka lagi
     public void ResetState()
     {
         isCreatedGen = false;
