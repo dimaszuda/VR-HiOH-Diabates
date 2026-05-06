@@ -25,7 +25,7 @@
 
 ## Overview
 
-VR HiOH Diabetes is a Virtual Reality simulation game built with Unity, targeting Android mobile devices. The application allows players to perform various daily activities — such as eating and exercising — while observing real-time changes in blood glucose levels within a simulated body model. It was developed as a research tool to support a thesis on glucose regulation and diabetes risk factors.
+VR HiOH Diabetes is a Virtual Reality simulation game built with Unity, targeting Android mobile devices. The VR experience is implemented as a gyroscope/touch-based simulation and does not require a dedicated VR headset. The application allows players to perform various daily activities — such as eating and exercising — while observing real-time changes in blood glucose levels within a simulated body model. It was developed as a research tool to support a thesis on glucose regulation and diabetes risk factors.
 
 ---
 
