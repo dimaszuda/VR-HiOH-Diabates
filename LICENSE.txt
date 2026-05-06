@@ -1,0 +1,90 @@
+=================================================================
+ VIRTUAL REALITY HEALTH IN OUR HANDS DIABETES
+ LICENSE & THIRD-PARTY NOTICES
+=================================================================
+
+1. Main License
+-----------------------------------------------------------------
+Virtual Reality Health in Our Hands Diabetes © 2025 by Adha Nisfatulsanah.
+Licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+-----------------------------------------------------------------
+2. Disclaimer
+-----------------------------------------------------------------
+This software is provided "as is", without warranty of any kind,
+express or implied, including but not limited to the warranties of
+merchantability, fitness for a particular purpose, and noninfringement.
+In no event shall the authors or copyright holders be liable for
+any claim, damages, or other liability, whether in an action of contract,
+tort, or otherwise, arising from, out of, or in connection with the software
+or the use or other dealings in the software.
+
+-----------------------------------------------------------------
+3. Third-Party Assets and Libraries
+-----------------------------------------------------------------
+This project uses third-party assets and libraries which are covered by their respective licenses.
+
+Unless otherwise noted, all assets listed below are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+See: http://creativecommons.org/licenses/by/4.0/
+
+Assets used:
+
+- "Classroom" (https://skfb.ly/6TuSU) by BananaBagal.
+- "Skeleton" (https://skfb.ly/SnDY) by Diego Luján García.
+- "Medicine Wall Cupboard, Hospital" (https://skfb.ly/oGXEn) by BillyJJackson. 
+- "LabTable2" (https://skfb.ly/oPu7H) by Judith Solomon.
+- "Microscope" (https://skfb.ly/6yWEJ) by lionclaw0612.
+- "Microscope" (https://skfb.ly/6R6Tz) by rollthebryce.
+- "Human Pancreas Cross section" (https://skfb.ly/oGCIQ) by arloopa.
+- "Human liver and gallbladder" (https://skfb.ly/6SD8p) by ElliotSS.
+- "Lab Table" (https://skfb.ly/oqzVJ) by zeeshanfareed.
+- "table_laboratory" (https://skfb.ly/oPq6E) by irenokh22.
+- "Modern Themed Show Room (Updated)" (https://skfb.ly/6VKLn) by Kommander Karl.
+- "Plant With Pot" (https://skfb.ly/6WG9U) by SudiptKmr.
+- "Treadmill 3D Model" (https://skfb.ly/6xrPr) by Javier Martín Hidalgo.
+- "Gym Equipments Barbell, Dumbells and gym seat" (https://skfb.ly/owMnu) by oguz-ulash.
+- "ROMAN CHAIR - Premium 3D Gym Equipment Model" (https://skfb.ly/pvMFy) by JK3Dstudios.
+- "Barbell" (https://skfb.ly/oupLE) by Bluups.
+- "Dumbbell" (https://skfb.ly/6XAWR) by hoiman74.
+- "Ceiling Lamp - 11MB" (https://skfb.ly/oWuz8) by Mehdi Shahsavan.
+- "Simple dining table" (https://skfb.ly/pz6Gs) by 3Dji.
+- "Wooden plate" (https://skfb.ly/6RH9Q) by quedlin.
+- "Supermarket Drinks Shelf Asset" (https://skfb.ly/oGoNA) by Rendevr.
+- "Supermarket Potato Chips Shelf Asset" (https://skfb.ly/oGoFs) by Rendevr.
+- "Supermarket Fruit" (https://skfb.ly/oq7TT) by SyntaX.
+- "Supermarket colours" (https://skfb.ly/op9uN) by manusainz
+- "Cashier Shop Desk GtagFangame" (https://skfb.ly/pytZs) by OreoDev.
+- "Supermarket Shelves One Side" (https://skfb.ly/ptFGO) by Hamdn.
+- "Low Polly Supermarket" (https://skfb.ly/opJL8) by My IT studio.
+- "Vending Machine" (https://skfb.ly/oGp7o) by RackRibs.
+- "Vending Machine Coca Cola" (https://skfb.ly/o9DsS) by Shivansh Singh.
+- "Burger Realistic (Free)" (https://skfb.ly/oMMwE) by darklord3d.
+- "chocolate cookies" (https://skfb.ly/oSNHL) by sv1nks.
+- "Coca Cola Soda Can" (https://skfb.ly/oH7Dy) by x2w-soda.
+- "Ugly lye croissant with sesame seeds" (https://skfb.ly/o9xBC) by svnfbgr.
+- "Yakult but free" (https://skfb.ly/osTFD) by BimiLike3d.
+- "KitKat Chunky Salted Caramel" (https://skfb.ly/6XUSy) by Qlone.
+
+Note: Some assets used in this project have unknown or unclear sources.  
+They are used strictly for non-commercial, educational purposes only.  
+If you are the creator of one of these assets, please contact us so we  
+can provide proper attribution or replace the asset.
+
+-----------------------------------------------------------------
+4. Credits
+-----------------------------------------------------------------
+Developed with Unity Engine.
+Additional thanks to contributors and supporters listed in the game’s About page.
+
+-----------------------------------------------------------------
+5. Contact
+-----------------------------------------------------------------
+For questions or further information, please contact:
+adhanisfatulsanah01@student.uns.ac.id
+
+=================================================================
+END OF LICENSE FILE
+=================================================================

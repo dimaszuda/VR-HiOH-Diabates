@@ -202,9 +202,8 @@ public static class ApiKeyConfig
 ## Known Limitations
 
 - Not compatible with iOS / iPhone devices
-- The experience is not true VR — no dedicated VR headset or VR-specific settings are implemented. All interaction is done through direct touch on the phone screen (drag/swipe to look around), primarily due to budget constraints.
+- The experience is not true VR — no dedicated VR headset or VR-specific settings are implemented. All interaction is done through direct touch on the phone screen (drag/swipe to look around).
 - Character movement is restricted to rotation (look left/right) and vertical tilt (look up/down). There is no forward/backward locomotion — the player remains stationary throughout the simulation.
-- Food prices displayed in the Kantin Sehat scene are estimated/planned figures and do not reflect actual market prices.
 
 ---
 
