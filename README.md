@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="img/icon/icon app HD.png" alt="VR HiOH Diabetes Icon" width="150"/>
+</p>
+
 # VR HiOH Diabetes
 
 > A mobile VR simulation game for thesis research on blood glucose dynamics in the human body.
