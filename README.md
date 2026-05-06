@@ -199,7 +199,7 @@ public static class ApiKeyConfig
 
 | Gameplay | Glucose Graph | Food Selection |
 |---|---|---|
-| ![gameplay](img/screenshot/gameplay.png) | ![graph](img/screenshot/graph.png) | ![food](img/screenshot/food.png) |
+| ![gameplay](img/screenshot/gameplay.jpeg) | ![graph](img/screenshot/graph.jpeg) | ![food](img/screenshot/food.jpeg) |
 
 ---
 
